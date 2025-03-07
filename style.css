@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "DynaPuff", system-ui; */
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+header img{
+    width: 60px;
+}
+.log{
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+}
+header a{
+    text-decoration: none;
+    color: #920101;
+    font-weight: 600;
+
+}
+header a:hover{
+    border-bottom: 2px solid red;
+}
+
+nav{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: "DynaPuff", system-ui;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    
+
+}
+nav:hover{
+    color: white;
+    border: 1px solid red;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    border: 1px solid red;
+}
+.first {
+    background-image: url(./img/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+}
+.text h2{
+    color: white;
+    font-size: 3rem;
+}
+.text h3{
+     color: red;
+     /* text-shadow: 0 0 2px blue; */
+     
+}
+.text button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    font-weight: 700;
+    background-color: white;
+}
+section{
+    position: relative;
+    height: 100vh;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+
+}
+.slack{
+    font-size: 2rem;
+    background-color: red;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    padding-top: 2px;
+}
+.slack:hover{
+    outline: 2px inset rgb(0, 0, 0);
+    outline-offset: 3px;
+    color: black;
+
+}
+.lore1, .lore2{
+    margin: 100px ;
+}
+.firstsec{
+    /* background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(./img/pexels-thatguycraig000-1563356.jpg);
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    
+
+}
